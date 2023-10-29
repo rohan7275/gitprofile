@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'rohan7275', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,9 +11,9 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
+    linkedin: 'rohan-agarwal-21410b152',
     twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    mastodon: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
@@ -22,48 +22,38 @@ const config = {
     medium: 'arifszn',
     dev: 'arifszn',
     stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
+    Github: 'rohan7275',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'LIT2020014@iiitl.ac.in',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/19YlrkNLMG4u-mp8gHJFVMrI47DViAe5Z/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
     'Nest.js',
     'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'Git/Github',
+    'PowerBI',
+    'Java',
+    'C++',
     'CSS',
-    'Antd',
     'Tailwind',
   ],
-  experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
+  // experiences: [
+  //   {
+  //     company: 'TypeAtom',
+  //     position: 'SDE Intern',
+  //     from: 'June 2023',
+  //     to: 'July 2023',
+  //     companyLink: '',
+  //   },
+  // ],
   /* certifications: [
     {
       name: 'Lorem ipsum',
@@ -74,16 +64,16 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Indian Institute of Information Technology,Lucknow',
+      degree: 'Bachelor of Technology',
+      from: '2020',
+      to: '2024',
     },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+     {
+      institution: 'Shiv Jyoti International School,Kota',
+      degree: '11th-12th - PCM',
+      from: '2018',
+      to: '2020',
     },
   ],
 
@@ -104,6 +94,15 @@ const config = {
       link: 'https://example.com',
     },
   ],
+  experiences: [
+    {
+      company: 'TypeAtom',
+      position: 'SDE Intern',
+      from: 'June 2023',
+      to: 'July 2023',
+      companyLink: '',
+    },
+  ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
@@ -115,7 +114,7 @@ const config = {
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
-    id: '',
+    id: '3714287',
     snippetVersion: 6,
   },
   themeConfig: {
@@ -179,11 +178,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+  footer: `Made with ❤️ by<a 
+      class="text-primary" href="https://www.linkedin.com/in/rohan-agarwal-21410b152/"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >Rohan Agarwal</a> `,
 };
 
 export default config;
